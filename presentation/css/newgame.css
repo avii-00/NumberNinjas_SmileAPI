@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("../../public/images/background5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.interface {
+  flex-basis: 65%;
+  margin: 0 auto;
+  background-color: #51557E;
+  height: 80%;
+  position: relative;
+  opacity: 0.9;
+}
+
+.top-section {
+  background-color: #000000;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 30%;
+}
+
+.top-section h1 {
+  font-size: 50px;
+  font-family: blame;
+  color: #515475;
+  margin: 0;
+  margin-top: -2%;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.new-game {
+
+  text-align: center;
+}
+
+.new-game h2 {
+  font-size: 30px;
+  font-family: Bruce Forever;
+  color: #0c0c0c;
+  margin-bottom: 10%;
+}
+
+.new-game p {
+  font-size: 20px;
+  font-family: Pilot Command;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-button,
+.exit-button {
+  padding: 10px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #5f1515;
+  color: #fff;
+  border: none;
+  margin: 0 20px;
+  cursor: pointer;
+  font-family: Bruce Forever;
+}
+
+.join-button:hover,
+.exit-button:hover {
+  background-color: #cc4949;
+  transform: translateY(-5px);
+}

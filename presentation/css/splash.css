@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../public/images/background5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 65%;
+    background-color: rgb(12, 12, 12);
+    height: 80%;
+    opacity: 0.8;
+}
+
+img {
+    position: absolute;
+    top: 30;
+    left: 30;
+    width: 300px;
+    height: auto;
+    margin-bottom: 250px;
+}
+
+h1 {
+
+    margin: 3rem 0;
+    font-size: 70px;
+    color: #515475;
+    font-family: blame;
+    margin-top: 250px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    font-family: Bruce Forever;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+}
+
+.loading span {
+    opacity: 0;
+    animation: blink 1s infinite; /* Giving blinking effect */
+    animation-delay: calc(var(--i) * 0.2s);
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

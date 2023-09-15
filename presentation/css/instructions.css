@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("../../public/images/background5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.interface {
+  flex-basis: 65%;
+  margin: 0 auto;
+  background-color: #51557E;
+  height: 80%;
+  position: relative;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Bruce Forever;
+}
+
+.instructions {
+  text-align: left;
+  margin-bottom: 50px;
+  padding-left: 20px;
+
+}
+
+.instructions h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: Pilot Command;
+}
+
+.instructions ul {
+  list-style: disc;
+  margin-left: 50px;
+  font-size: 22px;
+  line-height: 2.0;
+  font-family: Pilot Command;
+}
+
+.controllers h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-family: Pilot Command;
+}
+
+.controllers ul {
+  list-style: disc;
+  margin-left: 75px;
+  font-size: 22px;
+  line-height: 2.0;
+  font-family: Pilot Command;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+}
+
+.back-button button,
+.play-button button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #5f1515;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Pilot Command;
+}
+
+.back-button button:hover,
+.play-button button:hover {
+  background-color: #cc4949;
+  color: #FFFFFF;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+  

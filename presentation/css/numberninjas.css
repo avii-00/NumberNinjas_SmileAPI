@@ -1,0 +1,147 @@
+
+html {
+    overflow-y: hidden;
+}
+
+
+h1 {
+    font-family: Buttershine serif;
+    color: #000000;
+}
+
+p {
+    font-family: Buttershine serif;
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../public/images/background5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-area {
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}
+
+.base {
+    width: 1100px;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 0;
+    background-color: #51557E;
+    padding: 20px;
+    opacity: 0.97;
+}
+
+.outerscreen {
+    position: relative;
+
+}
+
+.inner-area {
+    height: 100%;
+}
+
+.inner-area .p-3 {
+    
+    height: 100%;
+    border-radius: 0;
+    margin-right: 20px;
+    width: 500px;
+    opacity: 0.9;
+
+}
+
+.welcome .p-3 {
+    min-height: 100%;
+    background-color:  rgb(171, 138, 247);
+    border-radius: 0;
+    width: 500px;
+    margin-left: 20px;
+    opacity: 0.7;
+}
+
+.question img {
+
+    width: 100%;
+}
+
+.question {
+    object-fit: cover;
+    margin-bottom: 10%;
+}
+
+.detail-area {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+#username {
+    font-size: 36px;
+    font-family: Buttershine serif;
+    font-style: bold;
+}
+
+#exit-btn {
+    display: block;
+    width: 40%;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5f1515;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    font-family: Bruce Forever;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+#exit-btn:hover {
+    background-color: #cc4949;
+    
+}
+
+.btn-answers button {
+    cursor: pointer;
+    position: relative;
+    background-color: #8c7daf;
+    color: black;
+
+}
+
+.btn-answers {
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+
+}
+
+.btn-answers button:hover {
+    background-color: #5e37b9;
+    color: white;
+    
+}
+

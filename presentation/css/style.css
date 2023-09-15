@@ -1,0 +1,161 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("../../public/images/background5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.left-side {
+  background-color: #000000;
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  position: relative;
+  opacity: 0.9;
+}
+
+.right-side {
+  background-color: #51557E;
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  opacity: 0.9;
+}
+
+.left-side img {
+  position: absolute; 
+  top: 30; 
+  left: 30; 
+  width: 300px; 
+  height: auto; 
+  margin-bottom: 90px;
+
+  }
+
+h2 {
+  font-size: 40px;
+  color: #515475;
+  margin-top: 250px;
+  font-family: blame;
+}
+
+h1{
+  font-family: Bruce Forever;
+  font-size: 35px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 1rem;
+  font-size: 25px;
+  font-family: Pilot Command;
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.btn-outline-primary {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5f1515;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  font-family: Pilot Command;
+}
+
+.btn-outline-primary:hover {
+  background-color: #cc4949;
+  transform: translateY(-5px);
+}
+
+.btn-outline-success {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5f1515;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  font-family: Pilot Command;
+}
+
+.btn-outline-success:hover {
+  background-color: #cc4949;
+  transform: translateY(-5px);
+}
+
+
+p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #161111;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: Pilot Command;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+span {
+  
+  font-size: 16px;
+}
+
+a:hover {
+  color: #3a2e2e;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  
+}

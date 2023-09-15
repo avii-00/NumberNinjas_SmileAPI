@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("../../public/images/background5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  
+ 
+  
+  .interface {
+    flex-basis: 65%;
+    margin: 0 auto;
+    background-color: #51557E;
+    height: 80%;
+    position: relative;
+    opacity: 0.8;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin: 8 auto 30px;
+    text-align: center;
+    font-family: Bruce Forever;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+  }
+  
+  
+  .long-button {
+    width: 400px;
+    padding: 20px 35px;
+    margin: 10px;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: #5f1515;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: Pilot Command;
+      
+  }
+  
+  .long-button:hover {
+    background-color: #cc4949;
+    transform: translateY(-5px);
+  }
+  
+  .play-button {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #5f1515;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    font-size: 20px;;
+    justify-content: center;
+    align-items: center;
+    font-family: Pilot Command;
+  }
+
+  
+  .play-button:hover {
+    background-color: #cc4949;
+    transform: translateY(-5px);
+  }
+  
+  .play-button i {
+    margin-right: 5px;
+  }
+  
